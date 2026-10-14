@@ -8,6 +8,9 @@ service ProcessorService {
 
 }
 
+annotate ProcessorService.Incidents with @odata.draft.enabled;
+
+
 /** service used by Admins to manage customers and incidents */
 
 service AdminService {
